@@ -1,0 +1,22 @@
+{
+    "name": "dickyermawan/yii2-telegram-log",
+    "description": "Yii2 telegram log to sends logs in Yii2 to telegram.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","telegram","log","telegram-log"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dicky Ermawan S",
+            "email": "wanasaja@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "yiisoft/yii2-httpclient": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "dickyermawan\\log\\": ""
+        }
+    }
+}
